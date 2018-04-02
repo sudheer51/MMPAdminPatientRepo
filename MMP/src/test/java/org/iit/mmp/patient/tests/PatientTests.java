@@ -18,6 +18,7 @@ import org.testng.annotations.Test;
 
 public class PatientTests extends TestBaseClass{
 
+	//Fixing the scripts
 	Logger logger = Logger.getLogger("PatientTests.class");
 	HashMap<String,String> hMap;
 	Random rnd = new Random();
