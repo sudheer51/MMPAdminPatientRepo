@@ -24,8 +24,10 @@ public class PatientTests extends TestBaseClass{
 	Random rnd = new Random();
 	String username = "test"+rnd.nextInt(90);
 	String password = "test"+rnd.nextInt(90);
+ 
+ 
 	String email = "test"+rnd.nextInt(9000)+"@gmail.com";
-	
+ 
 	@BeforeMethod
 	public void beforeMethod()
 	{
@@ -33,7 +35,7 @@ public class PatientTests extends TestBaseClass{
 	}
 	@Test(priority = 1,enabled=false)
 	public void verifyPatientLogin() throws InterruptedException
-	{
+	{ 
 		driver.get(url);
 		HomePage hPage = new HomePage(driver);
 		hPage.navigateToPatLoginPage();

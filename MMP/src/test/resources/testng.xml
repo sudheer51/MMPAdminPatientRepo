@@ -7,6 +7,7 @@
   <parameter name="adminUrl" value="http://96.84.175.78/MMP-Release2-Admin-Build.2.1.000/login.php" />
   <parameter name="adminUsername" value="Thomas@123" />
   <parameter name="adminPassword" value="Thomas@111" />
+  
     <classes>
       <class name="org.iit.mmp.patient.tests.PatientTests"/>
     </classes>
@@ -18,6 +19,8 @@
   <parameter name="adminUrl" value="http://96.84.175.78/MMP-Release2-Admin-Build.2.1.000/login.php" />
   <parameter name="adminUsername" value="Thomas@123" />
   <parameter name="adminPassword" value="Thomas@111" />
+   <parameter name="ssn" value="667990098" />
+  <parameter name="patFName" value="Roger" />
     <classes>
       <class name="org.iit.mmp.admin.tests.AdminTests"/>
     </classes>
