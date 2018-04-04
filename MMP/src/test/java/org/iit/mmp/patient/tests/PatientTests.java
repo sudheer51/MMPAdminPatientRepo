@@ -24,7 +24,7 @@ public class PatientTests extends TestBaseClass{
 	Random rnd = new Random();
 	String username = "test"+rnd.nextInt(90);
 	String password = "test"+rnd.nextInt(90);
-	String email = "test"+rnd.nextInt(90)+"@gmail.com";
+	String email = "test"+rnd.nextInt(8000)+"@gmail.com";
 
 	@BeforeMethod
 	public void beforeMethod()

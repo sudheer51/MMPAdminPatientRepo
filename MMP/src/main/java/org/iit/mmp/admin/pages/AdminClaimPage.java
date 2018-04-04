@@ -44,6 +44,7 @@ public class AdminClaimPage {
 	{
 		driver.findElement(By.partialLinkText(patientName)).click();
 	}
+	 
 	public String submitClaim()
 	{	
 		
