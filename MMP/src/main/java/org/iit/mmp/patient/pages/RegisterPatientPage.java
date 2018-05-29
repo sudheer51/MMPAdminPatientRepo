@@ -93,7 +93,7 @@ public class RegisterPatientPage {
 
 			WebElement city= driver.findElement(By.id("city"));
 			city.sendKeys("seattle");
-			hp.put("city", city.getAttribute("value"));
+			hp.put("address", city.getAttribute("value"));
 
 			WebElement addressTxt= driver.findElement(By.id("address"));
 			addressTxt.sendKeys("9 street");
